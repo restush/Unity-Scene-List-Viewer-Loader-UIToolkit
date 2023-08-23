@@ -3,7 +3,7 @@
 
 This is scene list viewer, loader, shortcut and window editor Unity to organize scene. There is feature pin scene. This will make you save time finding your favorite scene.
 
-Make sure check and edit `_buttonPath` and `_baseUIToolkitPath`.
+Make sure check and edit property of `_buttonPath` and `_baseUIToolkitPath` inside `SceneListEditorWindow.cs`.
 - `_buttonPath` is path to `Assets/SceneListButtonContainer.uxml`
 - `_baseUIToolkitPath` is path to `Assets/SceneListUIToolkit.uxml`.
 
