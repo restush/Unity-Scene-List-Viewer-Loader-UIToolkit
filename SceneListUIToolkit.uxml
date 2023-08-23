@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:ScrollView name="Pinned" style="padding-bottom: 0; margin-bottom: 0; height: 35%; flex-grow: 0; top: auto; display: flex; visibility: visible; opacity: 1;" />
+    <ui:ScrollView name="Unpinned" style="height: 75%; padding-top: 10px;" />
+</ui:UXML>
