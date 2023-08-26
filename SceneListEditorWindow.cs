@@ -61,7 +61,10 @@ public class SceneListEditorWindow : EditorWindow
             {
                 var cacheSceneName = sceneNameButton;
                 var cachePath = path;
-                EditorSceneManager.OpenScene(cachePath);
+                if (EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo())
+                {
+                    EditorSceneManager.OpenScene(cachePath);
+                }
             }
             void Pin_clicked()
             {
